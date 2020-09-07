@@ -89,7 +89,7 @@ DATABASES = {
         'PORT': '5432',
     }
 }
-"""
+ """
 
 # Banco de dados servidor
 DATABASES = {

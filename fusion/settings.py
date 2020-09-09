@@ -80,8 +80,8 @@ WSGI_APPLICATION = 'fusion.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
-""" 
-# Banco de dados usado localmente
+
+""" # Banco de dados usado localmente
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -91,8 +91,8 @@ DATABASES = {
         'HOST': 'localhost',
         'PORT': '5432',
     }
-}
- """
+} """
+
 
 # Banco de dados servidor
 DATABASES = {

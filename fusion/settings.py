@@ -86,10 +86,13 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'fusion',
-        'USER': 'diogenes',
+        'USER': 'diogenes2',
         'PASSWORD': 'dio',
         'HOST': 'localhost',
         'PORT': '5432',
+        'TEST': {
+                'NAME': 'tests',  # This is an important entry
+        }
     }
 } """
 
@@ -141,7 +144,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Config E-mail Django teste console
-# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+#EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 
 """

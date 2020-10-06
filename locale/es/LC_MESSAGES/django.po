@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-13 00:01-0300\n"
-"PO-Revision-Date: 2020-09-13 00:02-0300\n"
+"POT-Creation-Date: 2020-09-13 02:27-0300\n"
+"PO-Revision-Date: 2020-09-13 02:29-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -82,7 +82,7 @@ msgstr "Descripción"
 msgid "Ícone"
 msgstr "Icono"
 
-#: core/models.py:42
+#: core/models.py:42 core/templates/base.html:49
 msgid "Serviços"
 msgstr "Servicios"
 
@@ -125,6 +125,65 @@ msgstr "Recurso"
 #: core/models.py:99
 msgid "Recursos"
 msgstr "Recursos"
+
+#: core/templates/404.html:11
+msgid "Página não encontrada"
+msgstr ""
+
+#: core/templates/404.html:14 core/templates/500.html:14
+msgid "Volte para a página principal"
+msgstr "Volver a la pagina principal"
+
+#: core/templates/500.html:11
+msgid "Erro de processamento"
+msgstr "Error de proceso"
+
+#: core/templates/500.html:12
+msgid "Infelizmente não foi possível processar a requisição!"
+msgstr "Desafortunadamente, no fue posible procesar la solicitud."
+
+#: core/templates/base.html:44
+msgid "Início"
+msgstr "comienzo"
+
+#: core/templates/base.html:54
+msgid "Equipe"
+msgstr "Equipo"
+
+#: core/templates/base.html:59
+msgid "Preços"
+msgstr "Precios"
+
+#: core/templates/base.html:64
+msgid "Clientes"
+msgstr "Clientes"
+
+#: core/templates/base.html:69
+msgid "Contato"
+msgstr "Contacto"
+
+#: core/templates/hero.html:8
+msgid "Com a Fusion sua empresa poderá ir mais longe"
+msgstr "Con Fusion su empresa puede llegar más lejos"
+
+#: core/templates/hero.html:8
+msgid "Nós da Fusion fazemos mais por você"
+msgstr "Con Fusion hacemos más por ti"
+
+#: core/templates/hero.html:10
+msgid ""
+"Você irá mais longe. Nós não estudamos na Geek University para ganhar pouco "
+"dinheiro!"
+msgstr ""
+"Irás más lejos. ¡No estudiamos en la Universidad Geek para ganar poco dinero!"
+
+#: core/templates/hero.html:12
+msgid "Saiba mais"
+msgstr "sepa mas"
+
+#: core/templates/hero.html:13
+msgid "Entre em contato"
+msgstr "Entre en contacto"
 
 #: core/views.py:31
 msgid "E-mail enviado com sucesso"

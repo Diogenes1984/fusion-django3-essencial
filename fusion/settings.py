@@ -30,7 +30,7 @@ SECRET_KEY = str(os.getenv('SECRET_KEY'))
 DEBUG = False
 
 ALLOWED_HOSTS = ['*']
-ALLOWED_HOSTS = ['https://fusion-dap.herokuapp.com/']
+ALLOWED_HOSTS = ['fusion-dap.herokuapp.com']
 
 
 # Application definition
